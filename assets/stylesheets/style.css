@@ -88,7 +88,7 @@ h3 {
     height: auto;
     margin: auto;
     width: 328px;
-    top: -803px;
+    top: -626px;
     left: -260px;
 }
 .post, .postText, .about2, .aboutbox, .apps, .photos {
@@ -241,10 +241,7 @@ color: black;
     height: 80px;
 }
 .post:last-of-type {
-    top: 20px;
-}
-.postText:last-of-type {
-    top: 100px;
+    bottom: 200px;
 }
 .event {
     width: 504px;
