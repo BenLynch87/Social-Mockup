@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #E6E7EA;
+}
+.headblock {
+    background-color: #4B5B9E;
+    width: 850px;
+    height: 330px;
+    margin: auto;
+}
+.faceshot {
+    background-color: #4B5B9E;
+    width:170px;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 5px;
+    left: 15px;
+    top: 20px;
+}
+h2 {
+    color: white;
+    left: 200px;
+    top: 260px;
+}
+h3 {
+    color: white;
+    font-weight: normal;
+    left: 200px;
+    top: 250px;
+}
+.navbar {
+    background-color: white;
+    width: 850px;
+    height: 40px;
+    top: 205px;
+    border: 1px solid rgba(211, 211, 211, 0.75);
+}
+.navbar ul {
+    list-style: none;  
+    left: -265px;
+}
+.navbar ul li {
+    float: right;
+}
+.navbutton {
+    width: 80px;
+    height: 40px;
+    line-height: 10px;
+    bottom: 17px;
+    background-color: white;
+    border: 1px solid rgba(211, 211, 211, 0.6);
+    text-align: center;
+}
+.navbutton:hover {
+    border-bottom: 3px solid #4B5B9E;
+    font-weight: bold;
+}
+.buttonbar {
+    left: 560px;
+    top: 200px;
+}
+#follow {
+    left: 10px;
+}
+#message {
+    left: 5px;
+}
+#like {
+    left: 5px;
+}
+#morebutton::after {
+    content: " ▼";
+    font-size: 10px;
+}
