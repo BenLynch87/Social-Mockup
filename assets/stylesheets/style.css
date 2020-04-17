@@ -2,6 +2,7 @@
     box-sizing: border-box;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 body {
     background-color: #E6E7EA;
@@ -12,7 +13,7 @@ body {
     height: 330px;
     margin: auto;
 }
-.faceshot {
+.faceShot {
     background-color: #4B5B9E;
     width:170px;
     height: 170px;
@@ -72,7 +73,221 @@ h3 {
 #like {
     left: 5px;
 }
-#morebutton::after {
+.morebutton::after {
     content: " ▼";
     font-size: 10px;
+} 
+.post-col {
+    margin: auto;
+    width: 512px;
+    left: 170px;
+    top: 43px;
+    height: auto;
+}
+.side-col {
+    height: auto;
+    margin: auto;
+    width: 328px;
+    top: -803px;
+    left: -260px;
+}
+.post, .postText, .about2, .aboutbox, .apps, .photos {
+    width: inherit;
+    background-color: white;
+    border: 1px solid rgba(211, 211, 211, 0.6);
+    color: gray;
+    
+}
+.postText{
+    position: relative;
+    top: 10px;
+}
+.faceSmall {
+    float: left;
+    width: 50px;
+    height: 50px;
+    left: 13px;
+    top: 13px;
+    background-color: #4B5B9E;
+}
+.postContentPic {
+    left: 5px;
+    background-color: #4B5B9E;
+    top: 18px;
+    width: 502px;
+    height: 160px;
+    padding-bottom: 15px;
+}
+.postText p,.post p {
+    line-height: 0px;
+    font-size: 14px;
+    left: 23px;
+    top: 13px;
+}
+.postnav {
+    border-top: 1px solid rgba(211, 211, 211, 0.6);
+    height: 60px;
+    width: 512px;
+    top: 23px;
+    line-height: 10px;
+    color: #4B5B9E;
+}
+.postContentText {
+    width: 502px;
+    padding-bottom: 15px;
+    top: 18px;
+}
+.postContentText p {
+    line-height: 15px;
+    color: black;
+    left: 10px;
+}
+.dateline::after{
+    content: url(../images/globe.png);
+    position: relative;
+    top: 2px;
+    height: 100px;
+}
+.about2 {
+    top: -148px;
+    font-weight: bold;
+    line-height: 10px;
+    height: 150px;
+}
+.about2 a, .about2 p{
+    left: 10px;
+}
+#about {
+    left: 15px;
+}
+.address {
+    color: black;
+}
+.address::before{
+    content: url(../images/arrow.png);
+    padding-right: 10px;
+}
+.city {
+    padding-left: 26px;
+}
+.phone {
+    width: 308px;
+    margin: auto;
+    border-top: 1px solid rgba(211, 211, 211, 0.6);
+}
+.phone a{
+    left: 3px;
+}
+.phone::before {
+    content: url(../images/phone.png);
+}
+.aboutAddress {
+    border-top: 1px solid rgba(211, 211, 211, 0.6);
+}
+.aboutbox {
+    color: black;
+    height: 160px;
+    bottom: 158px;
+}
+.aboutsub {
+    line-height: 15px;
+    top: 25px;
+    height: 100px;
+    padding-left: 10px;
+    border: 1px solid rgba(211, 211, 211, 0.6);
+}
+
+.yourwebsite {
+top: 30px;
+}
+.yourwebsite::before {
+    content: url(../images/globewire.png);
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    top: 2px;
+}
+.foot {
+    position: absolute;
+    bottom: 0px;
+    font-size: 12px;
+    color: gray;
+    font-weight: lighter;
+}
+.apps {
+top: -138px;
+}
+.apps p {
+    left: 15px;
+    width: 50px;
+    font-weight: bold;
+   
+}
+.app {
+    border-top: 1px solid rgba(211, 211, 211, 0.6);
+    height: 100px;
+}
+.app p {
+left: 150px;
+top: -45px;
+line-height: 0px;
+color: black;
+}
+.appPic {
+    top: 10px;
+    left: 10px;
+    background-color: #4B5B9E;
+    width: 120px;
+    height: 80px;
+}
+.post:last-of-type {
+    top: 20px;
+}
+.postText:last-of-type {
+    top: 100px;
+}
+.event {
+    width: 504px;
+    height: 80px;
+    margin: auto;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.6);
+    border-right: 1px solid rgba(211, 211, 211, 0.6);
+    border-left: 1px solid rgba(211, 211, 211, 0.6);
+}
+.event p{
+    line-height: 20px;
+    text-align: left;
+}
+.event p::after {
+    position: relative;
+    float: right;
+    content: url(../images/join.png);
+    padding-right: 35px;
+    bottom: 8px;
+}
+.photoTitle {
+    height: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.6);
+}
+.photoTitle p {
+    left: 15px;
+}
+.photoTitle p::after {
+    content: "⮞";
+    float: right;
+    margin-right: 20px;
+}
+.photos {
+    bottom: 128px;
+    height: 370px;
+}
+div[class^="pic"] {
+    width: 99px;
+    height: 99px;
+    background-color: #4B5B9E;
+    left: 8px;
+    float: left;
+    margin: 2.5px;
+    margin-top: 5px;
 }
